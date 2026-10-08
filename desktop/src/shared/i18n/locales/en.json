@@ -1,0 +1,11 @@
+{
+  "settings": {
+    "language": {
+      "title": "Language",
+      "description": "Interface language for menus, settings, and labels",
+      "system": "System",
+      "en": "English",
+      "ko": "한국어"
+    }
+  }
+}

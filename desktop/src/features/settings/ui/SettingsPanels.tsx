@@ -61,6 +61,7 @@ import {
   ProminentActiveTabSetting,
   ThreadLayoutSetting,
 } from "./AppearanceSettingsControls";
+import { LanguageSetting } from "./LanguageSetting";
 import { ChannelTemplatesSettingsCard } from "./ChannelTemplatesSettingsCard";
 import { ExperimentalFeaturesCard } from "./ExperimentalFeaturesCard";
 import { KeyboardShortcutsCard } from "./KeyboardShortcutsCard";
@@ -790,6 +791,7 @@ function ThemeSettingsCard() {
           data-testid="appearance-preferences-card"
           title="Preferences"
         >
+          <LanguageSetting />
           <ConversationDisplaySettings />
           <LinkPreviewStyleSetting />
           <ThreadLayoutSetting />
